@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
 /*
 Theme Name: Less
 Theme URI: http://lessmade.com/themes/less
@@ -333,10 +333,10 @@ select {
   padding: 0;
   margin: 0;
   background: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 26.64px;
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-family: Georgia, serif;
+  line-height: 23.68px;
+  font-size: 16px;
+  font-size: 1.6rem;
 }
 /* typography
 -------------------------------------------------------------- */
@@ -348,7 +348,8 @@ h4,
 h5,
 h6 {
   clear: both;
-  font-family: "Arvo", Georgia, serif;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 20px;
 }
 h1 {
   line-height: 71.03999999999999px;
@@ -361,9 +362,9 @@ h2 {
   font-size: 3.4rem;
 }
 h3 {
-  line-height: 41.44px;
-  font-size: 28px;
-  font-size: 2.8rem;
+  line-height: 35.519999999999996px;
+  font-size: 24px;
+  font-size: 2.4rem;
 }
 h4 {
   line-height: 26.64px;
@@ -432,7 +433,7 @@ pre {
 }
 /* Links */
 a {
-  color: #007998;
+  color: #1194ba;
   -webkit-transition: color 0.25s ease-in-out;
   -moz-transition: color 0.25s ease-in-out;
   -o-transition: color 0.25s ease-in-out;
@@ -443,7 +444,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: rgba(0, 121, 152, 0.5);
+  color: rgba(17, 148, 186, 0.5);
 }
 /* Alignment */
 .alignleft {
@@ -484,8 +485,7 @@ header #brand {
   margin-top: 22px;
 }
 header #brand h1 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 900;
+  font-weight: bold;
   color: #565656;
   line-height: 23.68px;
   font-size: 16px;
@@ -504,6 +504,7 @@ header #brand h1 span {
   text-transform: lowercase;
 }
 header nav {
+  font-family: "Raleway", sans-serif;
   float: left;
 }
 header nav ul {
@@ -529,25 +530,26 @@ header nav ul li a {
 article {
   background: transparent;
   padding: 0;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   border-bottom: 1px solid #dddddd;
 }
 article .title {
   color: #404040;
-  line-height: 56.24px;
-  font-size: 38px;
-  font-size: 3.8rem;
+  line-height: 53.28px;
+  font-size: 36px;
+  font-size: 3.6rem;
   font-weight: 700;
+  margin-bottom: 5px;
 }
 article .title a {
   text-decoration: none;
   color: #404040;
 }
 article .title a:hover {
-  color: #007998;
+  color: #1194ba;
 }
 article .post-meta {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-size: 14px;
 }
 article .post-meta a {
@@ -558,11 +560,10 @@ article .post-meta a:hover {
   color: rgba(136, 136, 136, 0.5);
 }
 article .the-content a {
-  font-weight: 900;
   text-decoration: none;
 }
 article .the-content p {
-  color: #787878;
+  color: #555555;
 }
 article .the-content img {
   width: 100%;
@@ -591,11 +592,11 @@ article .meta .post-categories li {
   border-bottom: none;
 }
 .page article .title {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 /* Pagination */
 #pagination {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   width: 100%;
 }
 #pagination .past-page {
@@ -606,15 +607,15 @@ article .meta .post-categories li {
 }
 /* Comments */
 h3#comments {
-  margin-bottom: 80px;
-  font-size: 16px;
+  margin-bottom: 40px;
+  font-size: 14px;
 }
 .commentlist {
   list-style: none;
   margin: 0;
 }
 .commentlist .comment {
-  margin: 0 0 40px 50px;
+  margin: 0 0 20px 50px;
   padding: 20px;
   position: relative;
   list-style: none;
@@ -623,7 +624,7 @@ h3#comments {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
 .commentlist .comment .children {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .commentlist .comment-author {
   float: left;
@@ -638,19 +639,19 @@ h3#comments {
   display: none;
 }
 .comment-meta {
-  font-size: 12px;
+  font-size: 10px;
   margin-bottom: 10px;
 }
 .comment-subscription-form,
 .comment-subscription-form {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 12px;
 }
 #respond {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 #respond > h3 {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 20px;
 }
 #respond form label {
